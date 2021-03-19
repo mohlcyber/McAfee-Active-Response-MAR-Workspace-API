@@ -2,6 +2,14 @@
 
 This is an example script to pull the McAfee Active Response Workspace API. The script will return a JSON including the threat, affected systems, reputations and trace data of the detection. The output can be used to send the data (e.g. via Syslog) to a SIEM for alerting.
 
+### Requirements:
+
+```
+pip install beautifulsoup4 requests
+```
+
+### Usage:
+
 ```
 usage: python3 mar_workspace_api.py -h
 
@@ -24,7 +32,7 @@ optional arguments:
 
 ```
 
-Example output:
+### Example output:
 
 ```
 {
