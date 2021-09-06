@@ -27,9 +27,10 @@ optional arguments:
                         McAfee NSM Password
   --hours HOURS, -H HOURS
                         Time to go back in hours
+  --action {YES,NO}, -A {YES,NO}
+                        Should an action be applied to each collected Threat?
   --loglevel {INFO,DEBUG}, -L {INFO,DEBUG}
                         Loglevel
-
 ```
 
 ### Example output:
